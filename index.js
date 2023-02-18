@@ -58,7 +58,7 @@ switch(true) {
     count++;
     break;
   default:
-    alert ("Invalid grade for the PRELIM exam!");
+    
 }
 
 switch(true) {
@@ -67,7 +67,7 @@ switch(true) {
     count++;
     break;
   default:
-    alert("Invalid grade for the Midterm exam!");
+    
 }
 
 switch(true) {
@@ -82,8 +82,6 @@ switch(true) {
 if (count === 3) {
   let average = total / count;
   document.write("The total average is " + average.toFixed(2));
-} else {
-    document.write("Please enter valid grades for all three exams!");
-}
+} 
 
 
